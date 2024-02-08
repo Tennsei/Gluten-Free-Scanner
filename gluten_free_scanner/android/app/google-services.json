@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "969329655343",
+    "project_id": "gluten-free-scanner-4e23f",
+    "storage_bucket": "gluten-free-scanner-4e23f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:969329655343:android:a631b8174bcfb326f010da",
+        "android_client_info": {
+          "package_name": "com.example.gluten_free_scanner"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABfHbdSTaqhkeMqrZODcK6x1YPJ9PQVeY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
