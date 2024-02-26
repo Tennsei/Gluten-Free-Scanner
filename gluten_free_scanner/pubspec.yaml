@@ -11,6 +11,10 @@ dependencies:
     sdk: flutter
   firebase_core: ^2.25.4 
   barcode_scanner_kit: ^1.0.1
+  firebase_core_dart: ^1.0.1
+  camera: ^0.10.5+9
+  google_mlkit_barcode_scanning: ^0.10.0
+  google_mlkit_commons: ^0.6.1
 
 dev_dependencies:
   flutter_test:
