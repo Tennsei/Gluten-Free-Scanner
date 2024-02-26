@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:barcode_scanner_kit/barcode_scanner_kit.dart';
+
 
 void main() {
   runApp(const MainApp());
@@ -7,14 +9,21 @@ void main() {
 class MainApp extends StatelessWidget {
   const MainApp({super.key});
 
-  @override
+   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    const String appTitle = 'Gluten Free Scanner';
+    return MaterialApp(
+      title: appTitle,
       home: Scaffold(
-        body: Center(
-          child: Text('Hello World!'),
+        appBar: AppBar(
+          title: const Text(appTitle),
+        ),
+        body: const Center(
+          child: Text('Gluten free scanner'),
         ),
       ),
     );
   }
+  
+
 }
